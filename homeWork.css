@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+#header {
+  position: fixed;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+#header .header-top {
+  background-color: #424245;
+}
+#header .header-top .container {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  align-items: center;
+}
+#header .header-top .container .header-top-left {
+  flex: 1;
+}
+#header .header-top .container .header-top-left p {
+  font-size: 14px;
+  line-height: 1.33337;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  word-break: initial;
+  max-width: 430px;
+  color: #dcdcdd;
+}
+
+#header .header-top .container .header-top-right {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  justify-content: space-between;
+}
+
+#header .header-top .container .header-top-right .select-container {
+  border: 1px solid #6e6e70;
+  background-color: transparent;
+  border-radius: 7px;
+  width: 100%;
+  padding: 10px 20px;
+  max-width: 400px;
+}
+
+#header .header-top .container .header-top-right .select-container select {
+  background-color: transparent;
+  color: white;
+  font-size: 14px;
+  line-height: 3px;
+  border: none;
+}
+
+#header .header-top .container .header-top-right button {
+  margin: 0 16px;
+  background-color: #0171e2;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  color: white;
+}
+
+#header .header-top .container .header-top-right .close {
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+#header .header-bottom {
+  background-color: black;
+  height: 44px;
+}
+#header .header-bottom .container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: space-between;
+}
+
+#header .header-bottom .container .apple,
+.search,
+.bag {
+  font-size: 20px;
+  color: white;
+}
+#header .header-bottom .container .text {
+  color: white;
+  font-size: 14px;
+}
